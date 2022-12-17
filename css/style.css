@@ -51,3 +51,36 @@ a {
 .main-content {
   flex-grow: 1;
 }
+
+/* SITE-HEADER */
+.sire-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__img {
+  margin-right: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.site-header__info {
+  flex-grow: 1;
+}
+
+.site-header-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.site-header__subtitle {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
