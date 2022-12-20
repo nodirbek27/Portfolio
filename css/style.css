@@ -1,4 +1,8 @@
 /* CUSTOM PROPS */
+:root {
+  --header-bg: rgb(190, 250, 255);
+  --text-color: #222;
+}
 
 /* FONTS */
 
@@ -15,6 +19,12 @@ html {
   box-sizing: inherit;
 }
 
+/* DARK-MODE */
+.dark-mode {
+  --header-bg: #222;
+  --text-color: #fff;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -25,7 +35,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color);
 }
 
 img {
@@ -53,9 +63,10 @@ a {
 }
 
 /* SITE-HEADER */
-.sire-header {
+.site-header {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: var(--header-bg);
 }
 
 .site-header__container {
@@ -75,7 +86,7 @@ a {
   flex-grow: 1;
 }
 
-.site-header-title {
+.site-header__title {
   margin-top: 0;
   margin-bottom: 10px;
 }
